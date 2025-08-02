@@ -1,0 +1,23 @@
+{
+  "name": "Mongoose",
+  "keywords": "network,http,mqtt,tcp,udp,ssl,tls,sntp",
+  "description": "Mongoose library. HTTP client/server, MQTT client",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/cesanta/mongoose"
+  },
+  "authors":
+  [
+    {
+      "name": "Sergey Lyubka, Cesanta Software Limited"
+      "maintainer": false
+    }
+  ],
+  "export": {
+    "include": ["mongoose.h", "mongoose.c"]
+  },
+  "version": "7.18",
+  "frameworks": "*",
+  "platforms": "espressif32,espressif8266,native,windows_x86"
+}
